@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27C3CEB91E1329C800C605A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C3CEB81E1329C800C605A0 /* AppDelegate.swift */; };
+		27C3CEBB1E1329C800C605A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C3CEBA1E1329C800C605A0 /* ViewController.swift */; };
+		27C3CEBE1E1329C800C605A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C3CEBC1E1329C800C605A0 /* Main.storyboard */; };
+		27C3CEC01E1329C800C605A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C3CEBF1E1329C800C605A0 /* Assets.xcassets */; };
+		27C3CEC31E1329C800C605A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C3CEC11E1329C800C605A0 /* LaunchScreen.storyboard */; };
+		27C3CECE1E1329C800C605A0 /* SundayDriveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C3CECD1E1329C800C605A0 /* SundayDriveTests.swift */; };
+		27C3CED91E1329C800C605A0 /* SundayDriveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C3CED81E1329C800C605A0 /* SundayDriveUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27C3CECA1E1329C800C605A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27C3CEAD1E1329C800C605A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27C3CEB41E1329C800C605A0;
+			remoteInfo = SundayDrive;
+		};
+		27C3CED51E1329C800C605A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27C3CEAD1E1329C800C605A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27C3CEB41E1329C800C605A0;
+			remoteInfo = SundayDrive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27C3CEB51E1329C800C605A0 /* SundayDrive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SundayDrive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C3CEB81E1329C800C605A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27C3CEBA1E1329C800C605A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27C3CEBD1E1329C800C605A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27C3CEBF1E1329C800C605A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27C3CEC21E1329C800C605A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27C3CEC41E1329C800C605A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27C3CEC91E1329C800C605A0 /* SundayDriveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SundayDriveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C3CECD1E1329C800C605A0 /* SundayDriveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SundayDriveTests.swift; sourceTree = "<group>"; };
+		27C3CECF1E1329C800C605A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27C3CED41E1329C800C605A0 /* SundayDriveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SundayDriveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C3CED81E1329C800C605A0 /* SundayDriveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SundayDriveUITests.swift; sourceTree = "<group>"; };
+		27C3CEDA1E1329C800C605A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27C3CEB21E1329C800C605A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C3CEC61E1329C800C605A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C3CED11E1329C800C605A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27C3CEAC1E1329C800C605A0 = {
+			isa = PBXGroup;
+			children = (
+				27C3CEB71E1329C800C605A0 /* SundayDrive */,
+				27C3CECC1E1329C800C605A0 /* SundayDriveTests */,
+				27C3CED71E1329C800C605A0 /* SundayDriveUITests */,
+				27C3CEB61E1329C800C605A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27C3CEB61E1329C800C605A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27C3CEB51E1329C800C605A0 /* SundayDrive.app */,
+				27C3CEC91E1329C800C605A0 /* SundayDriveTests.xctest */,
+				27C3CED41E1329C800C605A0 /* SundayDriveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27C3CEB71E1329C800C605A0 /* SundayDrive */ = {
+			isa = PBXGroup;
+			children = (
+				27C3CEB81E1329C800C605A0 /* AppDelegate.swift */,
+				27C3CEBA1E1329C800C605A0 /* ViewController.swift */,
+				27C3CEBC1E1329C800C605A0 /* Main.storyboard */,
+				27C3CEBF1E1329C800C605A0 /* Assets.xcassets */,
+				27C3CEC11E1329C800C605A0 /* LaunchScreen.storyboard */,
+				27C3CEC41E1329C800C605A0 /* Info.plist */,
+			);
+			path = SundayDrive;
+			sourceTree = "<group>";
+		};
+		27C3CECC1E1329C800C605A0 /* SundayDriveTests */ = {
+			isa = PBXGroup;
+			children = (
+				27C3CECD1E1329C800C605A0 /* SundayDriveTests.swift */,
+				27C3CECF1E1329C800C605A0 /* Info.plist */,
+			);
+			path = SundayDriveTests;
+			sourceTree = "<group>";
+		};
+		27C3CED71E1329C800C605A0 /* SundayDriveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27C3CED81E1329C800C605A0 /* SundayDriveUITests.swift */,
+				27C3CEDA1E1329C800C605A0 /* Info.plist */,
+			);
+			path = SundayDriveUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27C3CEB41E1329C800C605A0 /* SundayDrive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27C3CEDD1E1329C800C605A0 /* Build configuration list for PBXNativeTarget "SundayDrive" */;
+			buildPhases = (
+				27C3CEB11E1329C800C605A0 /* Sources */,
+				27C3CEB21E1329C800C605A0 /* Frameworks */,
+				27C3CEB31E1329C800C605A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SundayDrive;
+			productName = SundayDrive;
+			productReference = 27C3CEB51E1329C800C605A0 /* SundayDrive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27C3CEC81E1329C800C605A0 /* SundayDriveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27C3CEE01E1329C800C605A0 /* Build configuration list for PBXNativeTarget "SundayDriveTests" */;
+			buildPhases = (
+				27C3CEC51E1329C800C605A0 /* Sources */,
+				27C3CEC61E1329C800C605A0 /* Frameworks */,
+				27C3CEC71E1329C800C605A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27C3CECB1E1329C800C605A0 /* PBXTargetDependency */,
+			);
+			name = SundayDriveTests;
+			productName = SundayDriveTests;
+			productReference = 27C3CEC91E1329C800C605A0 /* SundayDriveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27C3CED31E1329C800C605A0 /* SundayDriveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27C3CEE31E1329C800C605A0 /* Build configuration list for PBXNativeTarget "SundayDriveUITests" */;
+			buildPhases = (
+				27C3CED01E1329C800C605A0 /* Sources */,
+				27C3CED11E1329C800C605A0 /* Frameworks */,
+				27C3CED21E1329C800C605A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27C3CED61E1329C800C605A0 /* PBXTargetDependency */,
+			);
+			name = SundayDriveUITests;
+			productName = SundayDriveUITests;
+			productReference = 27C3CED41E1329C800C605A0 /* SundayDriveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27C3CEAD1E1329C800C605A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Instant Voodoo Magic, Inc.";
+				TargetAttributes = {
+					27C3CEB41E1329C800C605A0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6A46WS6PBV;
+						ProvisioningStyle = Automatic;
+					};
+					27C3CEC81E1329C800C605A0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6A46WS6PBV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 27C3CEB41E1329C800C605A0;
+					};
+					27C3CED31E1329C800C605A0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6A46WS6PBV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 27C3CEB41E1329C800C605A0;
+					};
+				};
+			};
+			buildConfigurationList = 27C3CEB01E1329C800C605A0 /* Build configuration list for PBXProject "SundayDrive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27C3CEAC1E1329C800C605A0;
+			productRefGroup = 27C3CEB61E1329C800C605A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27C3CEB41E1329C800C605A0 /* SundayDrive */,
+				27C3CEC81E1329C800C605A0 /* SundayDriveTests */,
+				27C3CED31E1329C800C605A0 /* SundayDriveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27C3CEB31E1329C800C605A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C3CEC31E1329C800C605A0 /* LaunchScreen.storyboard in Resources */,
+				27C3CEC01E1329C800C605A0 /* Assets.xcassets in Resources */,
+				27C3CEBE1E1329C800C605A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C3CEC71E1329C800C605A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C3CED21E1329C800C605A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27C3CEB11E1329C800C605A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C3CEBB1E1329C800C605A0 /* ViewController.swift in Sources */,
+				27C3CEB91E1329C800C605A0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C3CEC51E1329C800C605A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C3CECE1E1329C800C605A0 /* SundayDriveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C3CED01E1329C800C605A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C3CED91E1329C800C605A0 /* SundayDriveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27C3CECB1E1329C800C605A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27C3CEB41E1329C800C605A0 /* SundayDrive */;
+			targetProxy = 27C3CECA1E1329C800C605A0 /* PBXContainerItemProxy */;
+		};
+		27C3CED61E1329C800C605A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27C3CEB41E1329C800C605A0 /* SundayDrive */;
+			targetProxy = 27C3CED51E1329C800C605A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27C3CEBC1E1329C800C605A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27C3CEBD1E1329C800C605A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27C3CEC11E1329C800C605A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27C3CEC21E1329C800C605A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27C3CEDB1E1329C800C605A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27C3CEDC1E1329C800C605A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27C3CEDE1E1329C800C605A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6A46WS6PBV;
+				INFOPLIST_FILE = SundayDrive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.instantvoodoomagic.SundayDrive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		27C3CEDF1E1329C800C605A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6A46WS6PBV;
+				INFOPLIST_FILE = SundayDrive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.instantvoodoomagic.SundayDrive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		27C3CEE11E1329C800C605A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6A46WS6PBV;
+				INFOPLIST_FILE = SundayDriveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.instantvoodoomagic.SundayDriveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SundayDrive.app/SundayDrive";
+			};
+			name = Debug;
+		};
+		27C3CEE21E1329C800C605A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6A46WS6PBV;
+				INFOPLIST_FILE = SundayDriveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.instantvoodoomagic.SundayDriveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SundayDrive.app/SundayDrive";
+			};
+			name = Release;
+		};
+		27C3CEE41E1329C800C605A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6A46WS6PBV;
+				INFOPLIST_FILE = SundayDriveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.instantvoodoomagic.SundayDriveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SundayDrive;
+			};
+			name = Debug;
+		};
+		27C3CEE51E1329C800C605A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6A46WS6PBV;
+				INFOPLIST_FILE = SundayDriveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.instantvoodoomagic.SundayDriveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SundayDrive;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27C3CEB01E1329C800C605A0 /* Build configuration list for PBXProject "SundayDrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C3CEDB1E1329C800C605A0 /* Debug */,
+				27C3CEDC1E1329C800C605A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27C3CEDD1E1329C800C605A0 /* Build configuration list for PBXNativeTarget "SundayDrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C3CEDE1E1329C800C605A0 /* Debug */,
+				27C3CEDF1E1329C800C605A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		27C3CEE01E1329C800C605A0 /* Build configuration list for PBXNativeTarget "SundayDriveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C3CEE11E1329C800C605A0 /* Debug */,
+				27C3CEE21E1329C800C605A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		27C3CEE31E1329C800C605A0 /* Build configuration list for PBXNativeTarget "SundayDriveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C3CEE41E1329C800C605A0 /* Debug */,
+				27C3CEE51E1329C800C605A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27C3CEAD1E1329C800C605A0 /* Project object */;
+}
